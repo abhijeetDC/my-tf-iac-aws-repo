@@ -13,10 +13,7 @@ variable "instance_type" {
   default     =  "t2.micro"
 }
 
-variable "security_group" {
-  description = "Name of security group"
-  default     = "my-jenkins-security-group"
-}
+
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
